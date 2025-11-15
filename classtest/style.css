@@ -1,0 +1,53 @@
+body{
+    font-family: Arial,  sans-serif;  /* Font style */
+    background-color: lightgray;  /* Page background color */
+    text-align: center;             /* Center text on page */
+    margin:19px;                    /* Space around body  */
+}
+
+
+h1 {
+    color: black;
+    margin-bottom: 31px;
+}
+.product-box {
+    background-color : white;
+    width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 8px;
+
+}
+.product-box img {
+    color:white;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.product-box h2 {
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.description {
+    color: dimgray;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.price {
+    color: rgb(46, 203, 38);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: darkblue;
+}
+  
